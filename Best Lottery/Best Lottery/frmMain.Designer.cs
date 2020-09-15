@@ -1,6 +1,6 @@
 ﻿namespace Best_Lottery
 {
-    partial class Form1
+    partial class frmMain
     {
         /// <summary>
         /// Required designer variable.
@@ -89,6 +89,7 @@
             this.Sidepanel.Name = "Sidepanel";
             this.Sidepanel.Size = new System.Drawing.Size(13, 54);
             this.Sidepanel.TabIndex = 3;
+            this.Sidepanel.Visible = false;
             // 
             // lblUsuario
             // 

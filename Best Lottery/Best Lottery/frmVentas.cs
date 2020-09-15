@@ -16,5 +16,18 @@ namespace Best_Lottery
         {
             InitializeComponent();
         }
+
+        private void button1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == Convert.ToChar(Keys.D1))
+            {
+                txtNumero.Text = txtNumero.Text + "1";
+            }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
