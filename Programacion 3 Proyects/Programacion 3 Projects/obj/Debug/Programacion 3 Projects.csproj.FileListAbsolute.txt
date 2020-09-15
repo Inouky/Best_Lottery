@@ -1,0 +1,21 @@
+C:\Users\Francis\source\repos\Programacion 3 Proyects\Programacion 3 Proyects\bin\Debug\Programacion 3 Proyects.exe.config
+C:\Users\Francis\source\repos\Programacion 3 Proyects\Programacion 3 Proyects\bin\Debug\Programacion 3 Proyects.exe
+C:\Users\Francis\source\repos\Programacion 3 Proyects\Programacion 3 Proyects\bin\Debug\Programacion 3 Proyects.pdb
+C:\Users\Francis\source\repos\Programacion 3 Proyects\Programacion 3 Proyects\obj\Debug\Programacion 3 Proyects.csprojAssemblyReference.cache
+C:\Users\Francis\source\repos\Programacion 3 Proyects\Programacion 3 Proyects\obj\Debug\Programacion_3_Proyects.Form1.resources
+C:\Users\Francis\source\repos\Programacion 3 Proyects\Programacion 3 Proyects\obj\Debug\Programacion_3_Proyects.Properties.Resources.resources
+C:\Users\Francis\source\repos\Programacion 3 Proyects\Programacion 3 Proyects\obj\Debug\Programacion 3 Proyects.csproj.GenerateResource.cache
+C:\Users\Francis\source\repos\Programacion 3 Proyects\Programacion 3 Proyects\obj\Debug\Programacion 3 Proyects.exe
+C:\Users\Francis\source\repos\Programacion 3 Proyects\Programacion 3 Proyects\obj\Debug\Programacion 3 Proyects.pdb
+C:\Users\Francis\source\repos\Programacion 3 Proyects\Programacion 3 Proyects\obj\Debug\Programacion_3_Proyects.Form2.resources
+C:\Users\Francis\source\repos\Programacion 3 Proyects\Programacion 3 Projects\obj\Debug\Programacion 3 Projects.csprojAssemblyReference.cache
+C:\Users\Francis\source\repos\Programacion 3 Proyects\Programacion 3 Projects\obj\Debug\Programacion_3_Projects.Properties.Resources.resources
+C:\Users\Francis\source\repos\Programacion 3 Proyects\Programacion 3 Projects\obj\Debug\Programacion 3 Projects.csproj.GenerateResource.cache
+C:\Users\Francis\source\repos\Programacion 3 Proyects\Programacion 3 Projects\obj\Debug\Programacion 3 Projects.exe
+C:\Users\Francis\source\repos\Programacion 3 Proyects\Programacion 3 Projects\obj\Debug\Programacion 3 Projects.pdb
+C:\Users\Francis\source\repos\Programacion 3 Proyects\Programacion 3 Projects\obj\Debug\Programacion_3_Projects.Form3.resources
+C:\Users\Francis\source\repos\Programacion 3 Proyects\Programacion 3 Projects\bin\Debug\Programacion 3 Projects.exe.config
+C:\Users\Francis\source\repos\Programacion 3 Proyects\Programacion 3 Projects\bin\Debug\Programacion 3 Projects.exe
+C:\Users\Francis\source\repos\Programacion 3 Proyects\Programacion 3 Projects\bin\Debug\Programacion 3 Projects.pdb
+C:\Users\Francis\source\repos\Programacion 3 Proyects\Programacion 3 Projects\obj\Debug\Programacion_3_Projects.Form1.resources
+C:\Users\Francis\source\repos\Programacion 3 Proyects\Programacion 3 Projects\obj\Debug\Programacion 3 Projects.csproj.CoreCompileInputs.cache
