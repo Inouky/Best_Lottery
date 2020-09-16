@@ -31,6 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmVentas));
             this.button1 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.button2 = new System.Windows.Forms.Button();
             this.Separador = new Bunifu.Framework.UI.BunifuSeparator();
             this.txtNumero = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
@@ -38,14 +39,13 @@
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.lblPR = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.bunifuSeparator2 = new Bunifu.Framework.UI.BunifuSeparator();
-            this.button2 = new System.Windows.Forms.Button();
-            this.label4 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.lblPR = new System.Windows.Forms.Label();
+            this.bunifuSeparator2 = new Bunifu.Framework.UI.BunifuSeparator();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -68,7 +68,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.SteelBlue;
+            this.panel1.BackColor = System.Drawing.Color.Gray;
             this.panel1.Controls.Add(this.button2);
             this.panel1.Controls.Add(this.button1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
@@ -77,6 +77,19 @@
             this.panel1.Size = new System.Drawing.Size(383, 64);
             this.panel1.TabIndex = 0;
             // 
+            // button2
+            // 
+            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.White;
+            this.button2.Location = new System.Drawing.Point(193, 19);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(180, 33);
+            this.button2.TabIndex = 1;
+            this.button2.Text = "Finalizar jugada";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
             // Separador
             // 
             this.Separador.BackColor = System.Drawing.Color.Transparent;
@@ -84,7 +97,7 @@
             this.Separador.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(105)))), ((int)(((byte)(105)))));
             this.Separador.LineThickness = 1;
             this.Separador.Location = new System.Drawing.Point(16, 393);
-            this.Separador.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Separador.Margin = new System.Windows.Forms.Padding(5);
             this.Separador.Name = "Separador";
             this.Separador.Size = new System.Drawing.Size(95, 10);
             this.Separador.TabIndex = 5;
@@ -155,7 +168,7 @@
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.SteelBlue;
+            this.panel2.BackColor = System.Drawing.Color.Gray;
             this.panel2.Controls.Add(this.pictureBox1);
             this.panel2.Controls.Add(this.label4);
             this.panel2.Controls.Add(this.label3);
@@ -168,27 +181,38 @@
             this.panel2.Size = new System.Drawing.Size(383, 103);
             this.panel2.TabIndex = 12;
             // 
-            // lblPR
+            // pictureBox1
             // 
-            this.lblPR.AutoSize = true;
-            this.lblPR.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPR.ForeColor = System.Drawing.Color.White;
-            this.lblPR.Location = new System.Drawing.Point(6, 72);
-            this.lblPR.Name = "lblPR";
-            this.lblPR.Size = new System.Drawing.Size(34, 20);
-            this.lblPR.TabIndex = 0;
-            this.lblPR.Text = "PR";
+            this.pictureBox1.ErrorImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.ErrorImage")));
+            this.pictureBox1.Image = global::Best_Lottery.Properties.Resources.cerrar;
+            this.pictureBox1.Location = new System.Drawing.Point(350, 12);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(26, 28);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 5;
+            this.pictureBox1.TabStop = false;
             // 
-            // label1
+            // label4
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(46, 72);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(89, 20);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "NUMERO";
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Bookman Old Style", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.White;
+            this.label4.Location = new System.Drawing.Point(62, 21);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(226, 22);
+            this.label4.TabIndex = 4;
+            this.label4.Text = "VENTAS DE LOTERIA";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(300, 72);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(71, 20);
+            this.label3.TabIndex = 3;
+            this.label3.Text = "VALOR";
             // 
             // label2
             // 
@@ -201,16 +225,27 @@
             this.label2.TabIndex = 2;
             this.label2.Text = "LOTERIA";
             // 
-            // label3
+            // label1
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(300, 72);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(71, 20);
-            this.label3.TabIndex = 3;
-            this.label3.Text = "VALOR";
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(46, 72);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(89, 20);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "NUMERO";
+            // 
+            // lblPR
+            // 
+            this.lblPR.AutoSize = true;
+            this.lblPR.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPR.ForeColor = System.Drawing.Color.White;
+            this.lblPR.Location = new System.Drawing.Point(6, 72);
+            this.lblPR.Name = "lblPR";
+            this.lblPR.Size = new System.Drawing.Size(34, 20);
+            this.lblPR.TabIndex = 0;
+            this.lblPR.Text = "PR";
             // 
             // bunifuSeparator2
             // 
@@ -225,41 +260,6 @@
             this.bunifuSeparator2.TabIndex = 13;
             this.bunifuSeparator2.Transparency = 255;
             this.bunifuSeparator2.Vertical = false;
-            // 
-            // button2
-            // 
-            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(193, 19);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(180, 33);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Finalizar jugada";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Bookman Old Style", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(62, 21);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(226, 22);
-            this.label4.TabIndex = 4;
-            this.label4.Text = "VENTAS DE LOTERIA";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.ErrorImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.ErrorImage")));
-            this.pictureBox1.Image = global::Best_Lottery.Properties.Resources.cerrar;
-            this.pictureBox1.Location = new System.Drawing.Point(350, 12);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(26, 28);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 5;
-            this.pictureBox1.TabStop = false;
             // 
             // frmVentas
             // 
