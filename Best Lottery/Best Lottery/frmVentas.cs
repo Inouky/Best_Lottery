@@ -8,6 +8,9 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
+using System.Data;
+using System.Windows.Forms;
 
 namespace Best_Lottery
 {
@@ -16,6 +19,33 @@ namespace Best_Lottery
         public frmVentas()
         {
             InitializeComponent();
+            gridupdate();
+        }
+
+
+        public void gridupdate() // Metodo para actualizar el datagrid
+        {
+            string gridquery = string.Format("SELECT id_jugadaTemp AS PR, tipo_loteria AS Loteria, tipo_jugada AS Tipo, numeros AS Numeros, monto AS Valor FROM JugadasTemporal");
+            con.consulta(gridquery, "JugadasTemporal");
+            dgvVentas.DataSource = con.ds.Tables[0];
+        }
+
+        Conexion con = new Conexion();
+
+        private void dgvVentas_CellDoubleClick(object sender, DataGridViewCellEventArgs e)  // Para seleccionar las celdas del datagridview
+        {
+            if (dgvVentas.SelectedCells.Count > 0)
+            {
+                int selectedIndex = dgvVentas.SelectedCells[0].RowIndex;
+                DataGridViewRow selectedRow = dgvVentas.Rows[selectedIndex];
+
+                txtID.Text = selectedRow.Cells[0].Value.ToString();
+                cmbLoteria.Text = selectedRow.Cells[1].Value.ToString();
+                cmbTipo.Text = selectedRow.Cells[2].Value.ToString();
+                txtNumero.Text = selectedRow.Cells[3].Value.ToString();
+                txtValor.Text = selectedRow.Cells[4].Value.ToString();
+
+            }
         }
 
         private void button1_KeyPress(object sender, KeyPressEventArgs e)
@@ -26,15 +56,69 @@ namespace Best_Lottery
             }
         }
 
-        private void button1_Click(object sender, EventArgs e)
+
+        private void txtNumero_TextChanged(object sender, EventArgs e)
         {
 
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
+        private void btnAgregar_Click(object sender, EventArgs e)
         {
 
+            if (cmbLoteria.Text == "" || cmbTipo.Text == "" || txtNumero.Text == "" || txtValor.Text == "")
+            {
+                MessageBox.Show("No deje campos vacíos.");
+                return;
+            }
+
+            string QuerySQL;
+
+            if (txtID.Text.Length > 0) // Modificando lineas
+            {
+                QuerySQL = string.Format("UPDATE JugadasTemporal SET tipo_loteria ='{0}', tipo_jugada ='{1}', numeros ='{2}', monto ='{3}' WHERE id_jugadaTemp ='{4}'", cmbLoteria.Text, cmbTipo.Text, txtNumero.Text, txtValor.Text, txtID.Text);
+                if (con.insertar(QuerySQL))
+                {
+                    MessageBox.Show("Se ha modificado correctamente");
+                }
+                else
+                {
+                    MessageBox.Show("Hubo un error al tratar de modificar");
+                }
+
+            }
+            else
+            {
+                QuerySQL = string.Format("INSERT INTO JugadasTemporal(tipo_loteria,tipo_jugada,numeros,monto) VALUES ('{0}','{1}','{2}','{3}')", cmbLoteria.Text, cmbTipo.Text, txtNumero.Text, txtValor.Text);
+                if (con.insertar(QuerySQL))
+                {
+                    MessageBox.Show("Se ha guardado correctamente");
+                }
+
+                else
+                {
+                    MessageBox.Show("No se ha podido guardar correctamente");
+
+                }
+            }
+
+            gridupdate();
+
+
+            // Reset de los txt y cmb valores
+
+            txtID.Clear();
+            cmbLoteria.ResetText();
+            cmbTipo.ResetText();
+            txtNumero.Clear();
+            txtValor.Clear();
+
+        }
+
+        private void pbCerrar_Click(object sender, EventArgs e)
+        {
             this.Close();
         }
+
+       
     }
 }

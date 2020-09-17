@@ -12,3 +12,16 @@ C:\Users\Francis\source\repos\Best Lottery\Best Lottery\bin\Debug\Bunifu_UI_v1.5
 C:\Users\Francis\source\repos\Best Lottery\Best Lottery\obj\Debug\Best Lottery.csproj.CopyComplete
 C:\Users\Francis\source\repos\Best Lottery\Best Lottery\obj\Debug\Best_Lottery.frmMain.resources
 C:\Users\Francis\source\repos\Best Lottery\Best Lottery\obj\Debug\Best_Lottery.frmLogin.resources
+C:\Users\Mortar\source\repos\Best_Lottery\Best Lottery\Best Lottery\bin\Debug\Best Lottery.exe.config
+C:\Users\Mortar\source\repos\Best_Lottery\Best Lottery\Best Lottery\bin\Debug\Best Lottery.exe
+C:\Users\Mortar\source\repos\Best_Lottery\Best Lottery\Best Lottery\bin\Debug\Best Lottery.pdb
+C:\Users\Mortar\source\repos\Best_Lottery\Best Lottery\Best Lottery\obj\Debug\Best Lottery.csprojAssemblyReference.cache
+C:\Users\Mortar\source\repos\Best_Lottery\Best Lottery\Best Lottery\obj\Debug\Best_Lottery.frmLogin.resources
+C:\Users\Mortar\source\repos\Best_Lottery\Best Lottery\Best Lottery\obj\Debug\Best_Lottery.frmMain.resources
+C:\Users\Mortar\source\repos\Best_Lottery\Best Lottery\Best Lottery\obj\Debug\Best_Lottery.frmVentas.resources
+C:\Users\Mortar\source\repos\Best_Lottery\Best Lottery\Best Lottery\obj\Debug\Best_Lottery.Properties.Resources.resources
+C:\Users\Mortar\source\repos\Best_Lottery\Best Lottery\Best Lottery\obj\Debug\Best Lottery.csproj.GenerateResource.cache
+C:\Users\Mortar\source\repos\Best_Lottery\Best Lottery\Best Lottery\obj\Debug\Best Lottery.csproj.CoreCompileInputs.cache
+C:\Users\Mortar\source\repos\Best_Lottery\Best Lottery\Best Lottery\obj\Debug\Best Lottery.csproj.CopyComplete
+C:\Users\Mortar\source\repos\Best_Lottery\Best Lottery\Best Lottery\obj\Debug\Best Lottery.exe
+C:\Users\Mortar\source\repos\Best_Lottery\Best Lottery\Best Lottery\obj\Debug\Best Lottery.pdb
