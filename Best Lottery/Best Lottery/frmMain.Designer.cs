@@ -163,7 +163,7 @@
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.panel2.BackColor = System.Drawing.SystemColors.HotTrack;
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(237, 0);
             this.panel2.Name = "panel2";
@@ -209,6 +209,7 @@
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // label1
             // 
@@ -222,11 +223,11 @@
             // 
             // panel4
             // 
-            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.panel4.BackColor = System.Drawing.SystemColors.HotTrack;
             this.panel4.Controls.Add(this.label2);
             this.panel4.Controls.Add(this.pictureBox2);
             this.panel4.Controls.Add(this.lblUsuario);
-            this.panel4.Location = new System.Drawing.Point(975, 15);
+            this.panel4.Location = new System.Drawing.Point(980, 0);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(258, 36);
             this.panel4.TabIndex = 4;

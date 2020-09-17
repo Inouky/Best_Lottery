@@ -93,6 +93,16 @@ namespace Best_Lottery.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Close_Window__2_48px {
+            get {
+                object obj = ResourceManager.GetObject("Close Window_ 2 48px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap compras_48px {
             get {
                 object obj = ResourceManager.GetObject("compras_48px", resourceCulture);
