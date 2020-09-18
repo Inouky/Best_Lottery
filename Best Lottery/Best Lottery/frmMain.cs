@@ -24,7 +24,7 @@ namespace Best_Lottery
             Sidepanel.Visible = true;
             frmVentas frm = new frmVentas();
             frm.Show();
-            btnVentas.Enabled = false;
+           
         }
 
         private void btnLoterias_Click(object sender, EventArgs e)
@@ -41,7 +41,7 @@ namespace Best_Lottery
             Sidepanel.Visible = true;
             FrmReportes frm = new FrmReportes();
             frm.Show();
-            btnVentas.Enabled = false;
+
         }
 
         private void btnUsuarios_Click(object sender, EventArgs e)

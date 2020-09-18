@@ -12,7 +12,7 @@ namespace Best_Lottery
     public class Conexion
     {
 
-        SqlConnection con = new SqlConnection("Data Source=DESKTOP-PH5HVER;Initial Catalog=Loteria;Integrated Security=True");
+        public SqlConnection con = new SqlConnection("Data Source=D19B0211\\SQLEXPRESS;Initial Catalog=Loteria;Integrated Security=True");
 
         private SqlCommandBuilder cmb;
         public DataSet ds = new DataSet();

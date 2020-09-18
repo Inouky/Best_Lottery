@@ -14,7 +14,7 @@ namespace Best_Lottery
     public partial class frmLogin : Form
     {
         Conexion con = new Conexion();
-        frmVentas ventas = new frmVentas();
+        frmMain menu = new frmMain();
         public frmLogin()
         {
             InitializeComponent();
@@ -85,7 +85,7 @@ namespace Best_Lottery
             {
 
                 this.Visible = false;
-                ventas.Visible = true;
+                menu.Visible = true;
                 con.con.Close();
 
             }
@@ -94,6 +94,11 @@ namespace Best_Lottery
                 MessageBox.Show("Datos erroneos");
                 con.con.Close();
             }
+        }
+
+        private void btnLoginAcceder_Click_1(object sender, EventArgs e)
+        {
+            entrar();
         }
     }
 }

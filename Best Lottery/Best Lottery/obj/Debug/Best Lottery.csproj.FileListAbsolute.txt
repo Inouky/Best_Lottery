@@ -36,3 +36,16 @@ C:\Users\MauryYomary\Documents\GitHub\Best_Lottery\Best Lottery\Best Lottery\obj
 C:\Users\MauryYomary\Documents\GitHub\Best_Lottery\Best Lottery\Best Lottery\obj\Debug\Best Lottery.csproj.CoreCompileInputs.cache
 C:\Users\MauryYomary\Documents\GitHub\Best_Lottery\Best Lottery\Best Lottery\obj\Debug\Best Lottery.exe
 C:\Users\MauryYomary\Documents\GitHub\Best_Lottery\Best Lottery\Best Lottery\obj\Debug\Best Lottery.pdb
+C:\Users\d19b0211\source\repos\Best_Lottery\Best Lottery\Best Lottery\bin\Debug\Best Lottery.exe.config
+C:\Users\d19b0211\source\repos\Best_Lottery\Best Lottery\Best Lottery\bin\Debug\Best Lottery.exe
+C:\Users\d19b0211\source\repos\Best_Lottery\Best Lottery\Best Lottery\bin\Debug\Best Lottery.pdb
+C:\Users\d19b0211\source\repos\Best_Lottery\Best Lottery\Best Lottery\obj\Debug\Best Lottery.csprojAssemblyReference.cache
+C:\Users\d19b0211\source\repos\Best_Lottery\Best Lottery\Best Lottery\obj\Debug\Best_Lottery.frmLogin.resources
+C:\Users\d19b0211\source\repos\Best_Lottery\Best Lottery\Best Lottery\obj\Debug\Best_Lottery.frmMain.resources
+C:\Users\d19b0211\source\repos\Best_Lottery\Best Lottery\Best Lottery\obj\Debug\Best_Lottery.FrmReportes.resources
+C:\Users\d19b0211\source\repos\Best_Lottery\Best Lottery\Best Lottery\obj\Debug\Best_Lottery.frmVentas.resources
+C:\Users\d19b0211\source\repos\Best_Lottery\Best Lottery\Best Lottery\obj\Debug\Best_Lottery.Properties.Resources.resources
+C:\Users\d19b0211\source\repos\Best_Lottery\Best Lottery\Best Lottery\obj\Debug\Best Lottery.csproj.GenerateResource.cache
+C:\Users\d19b0211\source\repos\Best_Lottery\Best Lottery\Best Lottery\obj\Debug\Best Lottery.csproj.CopyComplete
+C:\Users\d19b0211\source\repos\Best_Lottery\Best Lottery\Best Lottery\obj\Debug\Best Lottery.exe
+C:\Users\d19b0211\source\repos\Best_Lottery\Best Lottery\Best Lottery\obj\Debug\Best Lottery.pdb
