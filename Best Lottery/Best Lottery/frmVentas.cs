@@ -16,13 +16,22 @@ namespace Best_Lottery
 {
     public partial class frmVentas : Form
     {
+        private Timer ti;
         public frmVentas()
         {
+            ti = new Timer();
+            ti.Tick += new EventHandler(eventtoTimer);
             InitializeComponent();
-            
+            gridupdate();
+            ti.Enabled = true;
         }
 
 
+        private void eventtoTimer(object ob, EventArgs evt)
+        {
+            DateTime Hoy = DateTime.Now;
+            lblhora.Text = Hoy.ToString("hh:mm:ss tt");
+        }
         public void gridupdate() // Metodo para actualizar el datagrid
         {
             string gridquery = string.Format("SELECT id_jugadaTemp AS PR, tipo_loteria AS Loteria, tipo_jugada AS Tipo, numeros AS Numeros, monto AS Valor FROM JugadasTemporal");
@@ -137,6 +146,9 @@ namespace Best_Lottery
             this.Close();
         }
 
+        private void lblhora_Click(object sender, EventArgs e)
+        {
 
+        }
     }
 }
