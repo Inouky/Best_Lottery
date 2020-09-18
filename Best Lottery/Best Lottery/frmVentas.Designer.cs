@@ -33,7 +33,7 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnFinalizar = new System.Windows.Forms.Button();
             this.cmbLoteria = new System.Windows.Forms.ComboBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtMonto = new System.Windows.Forms.TextBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.pbCerrar = new System.Windows.Forms.PictureBox();
             this.label4 = new System.Windows.Forms.Label();
@@ -71,7 +71,6 @@
             this.btnAgregar.Text = "Agregar/Modificar";
             this.btnAgregar.UseVisualStyleBackColor = false;
             this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
-            this.btnAgregar.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.button1_KeyPress);
             // 
             // panel1
             // 
@@ -97,6 +96,7 @@
             this.btnFinalizar.TabIndex = 5;
             this.btnFinalizar.Text = "Finalizar jugada";
             this.btnFinalizar.UseVisualStyleBackColor = false;
+            this.btnFinalizar.Click += new System.EventHandler(this.btnFinalizar_Click);
             // 
             // cmbLoteria
             // 
@@ -112,19 +112,19 @@
             this.cmbLoteria.Size = new System.Drawing.Size(207, 21);
             this.cmbLoteria.TabIndex = 1;
             // 
-            // textBox2
+            // txtMonto
             // 
-            this.textBox2.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox2.Enabled = false;
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(304, 132);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(166, 21);
-            this.textBox2.TabIndex = 11;
-            this.textBox2.Text = "$0";
-            this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtMonto.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.txtMonto.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtMonto.Enabled = false;
+            this.txtMonto.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtMonto.Location = new System.Drawing.Point(304, 132);
+            this.txtMonto.Margin = new System.Windows.Forms.Padding(2);
+            this.txtMonto.Name = "txtMonto";
+            this.txtMonto.Size = new System.Drawing.Size(166, 21);
+            this.txtMonto.TabIndex = 11;
+            this.txtMonto.Text = "$0";
+            this.txtMonto.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // panel2
             // 
@@ -219,7 +219,7 @@
             this.panel3.Controls.Add(this.btnFinalizar);
             this.panel3.Controls.Add(this.label1);
             this.panel3.Controls.Add(this.btnAgregar);
-            this.panel3.Controls.Add(this.textBox2);
+            this.panel3.Controls.Add(this.txtMonto);
             this.panel3.Controls.Add(this.cmbLoteria);
             this.panel3.Controls.Add(this.label6);
             this.panel3.Controls.Add(this.label5);
@@ -286,7 +286,6 @@
             this.txtNumero.Name = "txtNumero";
             this.txtNumero.Size = new System.Drawing.Size(152, 20);
             this.txtNumero.TabIndex = 2;
-            this.txtNumero.TextChanged += new System.EventHandler(this.txtNumero_TextChanged);
             // 
             // btnImprimir
             // 
@@ -302,6 +301,7 @@
             this.btnImprimir.TabIndex = 6;
             this.btnImprimir.Text = "Imprimir ticket";
             this.btnImprimir.UseVisualStyleBackColor = false;
+            this.btnImprimir.Click += new System.EventHandler(this.btnImprimir_Click);
             // 
             // label2
             // 
@@ -343,7 +343,7 @@
         private System.Windows.Forms.Button btnAgregar;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.ComboBox cmbLoteria;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtMonto;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.PictureBox pbCerrar;

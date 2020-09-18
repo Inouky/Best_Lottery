@@ -25,3 +25,4 @@ C:\Users\Mortar\source\repos\Best_Lottery\Best Lottery\Best Lottery\obj\Debug\Be
 C:\Users\Mortar\source\repos\Best_Lottery\Best Lottery\Best Lottery\obj\Debug\Best Lottery.csproj.CopyComplete
 C:\Users\Mortar\source\repos\Best_Lottery\Best Lottery\Best Lottery\obj\Debug\Best Lottery.exe
 C:\Users\Mortar\source\repos\Best_Lottery\Best Lottery\Best Lottery\obj\Debug\Best Lottery.pdb
+C:\Users\Mortar\source\repos\Best_Lottery\Best Lottery\Best Lottery\obj\Debug\Best_Lottery.FrmReportes.resources

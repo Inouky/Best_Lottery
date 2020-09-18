@@ -7,16 +7,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace Best_Lottery
 {
     public partial class frmLogin : Form
     {
+        Conexion con = new Conexion();
+        frmVentas ventas = new frmVentas();
         public frmLogin()
         {
             InitializeComponent();
         }
-        
+
         private void button1_Click(object sender, EventArgs e)
         {
             this.Close();
@@ -66,6 +69,31 @@ namespace Best_Lottery
             }
             #endregion
         }
+
+        private void btnLoginAcceder_Click(object sender, EventArgs e)
+        {
+            entrar();
+        }
+        public void entrar()
+        {
+            // aqui tenemos la conexion de la base de datos con el programa para que podamos ver los campos que ya estan en nuestra base de datos
+            con.con.Open();
+
+            SqlCommand cmd = new SqlCommand("SELECT nombre,contrasena FROM Usuarios WHERE nombre = '" + txtLoginUsuario.Text + "' AND contrasena='" + txtLoginPassword.Text + "'", con.con);
+            SqlDataReader dr = cmd.ExecuteReader();
+            if (dr.Read())
+            {
+
+                this.Visible = false;
+                ventas.Visible = true;
+                con.con.Close();
+
+            }
+            else
+            {
+                MessageBox.Show("Datos erroneos");
+                con.con.Close();
+            }
+        }
     }
-    
 }

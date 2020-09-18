@@ -19,7 +19,7 @@ namespace Best_Lottery
         public frmVentas()
         {
             InitializeComponent();
-            gridupdate();
+            
         }
 
 
@@ -46,20 +46,6 @@ namespace Best_Lottery
                 txtValor.Text = selectedRow.Cells[4].Value.ToString();
 
             }
-        }
-
-        private void button1_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            if (e.KeyChar == Convert.ToChar(Keys.D1))
-            {
-                txtNumero.Text = txtNumero.Text + "1";
-            }
-        }
-
-
-        private void txtNumero_TextChanged(object sender, EventArgs e)
-        {
-
         }
 
         private void btnAgregar_Click(object sender, EventArgs e)
@@ -112,6 +98,38 @@ namespace Best_Lottery
             txtNumero.Clear();
             txtValor.Clear();
 
+            // Suma de Valores en el Txt
+
+            int sum = 0;
+            for (int i=0; i < dgvVentas.Rows.Count;++i ) // Sumando
+            {
+                sum += Convert.ToInt32(dgvVentas.Rows[i].Cells[4].Value);  // Seleccionando las celdas
+
+            }
+
+            txtMonto.Text = ("$") + sum.ToString(); // Mostrando la suma en el txt
+
+        }
+
+
+        private void btnFinalizar_Click(object sender, EventArgs e) // Pasar los datos de la tabla JugadasTemporal a la tabla Jugadas
+        {
+
+            string QuerySQLFinal; 
+
+            QuerySQLFinal = string.Format("INSERT INTO Jugadas(tipo_loteria,tipo_jugada,numeros,monto) SELECT tipo_loteria, tipo_jugada, numeros, monto FROM JugadasTemporal");
+            con.consulta(QuerySQLFinal, "Jugadas");
+
+            MessageBox.Show("Se ha guardado correctamente");
+
+        }
+
+        private void btnImprimir_Click(object sender, EventArgs e)
+        {
+            
+            FrmReportes frm = new FrmReportes();
+            frm.Show();
+            btnImprimir.Enabled = false;
         }
 
         private void pbCerrar_Click(object sender, EventArgs e)
@@ -119,6 +137,6 @@ namespace Best_Lottery
             this.Close();
         }
 
-       
+
     }
 }

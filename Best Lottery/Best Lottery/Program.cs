@@ -16,7 +16,7 @@ namespace Best_Lottery
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmVentas());
+            Application.Run(new frmMain());
         }
     }
 }

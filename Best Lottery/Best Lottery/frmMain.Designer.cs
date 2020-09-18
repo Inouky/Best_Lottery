@@ -61,16 +61,18 @@
             this.panel1.Controls.Add(this.btnVentas);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(237, 589);
+            this.panel1.Size = new System.Drawing.Size(178, 479);
             this.panel1.TabIndex = 0;
             // 
             // Sidepanel
             // 
             this.Sidepanel.BackColor = System.Drawing.SystemColors.Highlight;
-            this.Sidepanel.Location = new System.Drawing.Point(4, 57);
+            this.Sidepanel.Location = new System.Drawing.Point(3, 46);
+            this.Sidepanel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Sidepanel.Name = "Sidepanel";
-            this.Sidepanel.Size = new System.Drawing.Size(13, 54);
+            this.Sidepanel.Size = new System.Drawing.Size(10, 44);
             this.Sidepanel.TabIndex = 3;
             this.Sidepanel.Visible = false;
             // 
@@ -82,9 +84,10 @@
             this.btnLogin.ForeColor = System.Drawing.Color.White;
             this.btnLogin.Image = global::Best_Lottery.Properties.Resources.empleados;
             this.btnLogin.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.btnLogin.Location = new System.Drawing.Point(25, 331);
+            this.btnLogin.Location = new System.Drawing.Point(19, 269);
+            this.btnLogin.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnLogin.Name = "btnLogin";
-            this.btnLogin.Size = new System.Drawing.Size(210, 54);
+            this.btnLogin.Size = new System.Drawing.Size(158, 44);
             this.btnLogin.TabIndex = 7;
             this.btnLogin.Text = "Login";
             this.btnLogin.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -99,9 +102,10 @@
             this.btnUsuarios.ForeColor = System.Drawing.Color.White;
             this.btnUsuarios.Image = global::Best_Lottery.Properties.Resources.clientes;
             this.btnUsuarios.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.btnUsuarios.Location = new System.Drawing.Point(25, 259);
+            this.btnUsuarios.Location = new System.Drawing.Point(19, 210);
+            this.btnUsuarios.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnUsuarios.Name = "btnUsuarios";
-            this.btnUsuarios.Size = new System.Drawing.Size(210, 54);
+            this.btnUsuarios.Size = new System.Drawing.Size(158, 44);
             this.btnUsuarios.TabIndex = 6;
             this.btnUsuarios.Text = "Usuarios";
             this.btnUsuarios.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -116,11 +120,12 @@
             this.btnSorteos.ForeColor = System.Drawing.Color.White;
             this.btnSorteos.Image = global::Best_Lottery.Properties.Resources.pagos;
             this.btnSorteos.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.btnSorteos.Location = new System.Drawing.Point(25, 187);
+            this.btnSorteos.Location = new System.Drawing.Point(19, 152);
+            this.btnSorteos.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnSorteos.Name = "btnSorteos";
-            this.btnSorteos.Size = new System.Drawing.Size(210, 54);
+            this.btnSorteos.Size = new System.Drawing.Size(158, 44);
             this.btnSorteos.TabIndex = 5;
-            this.btnSorteos.Text = "Reporte";
+            this.btnSorteos.Text = "Reportes";
             this.btnSorteos.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnSorteos.UseVisualStyleBackColor = true;
             this.btnSorteos.Click += new System.EventHandler(this.btnSorteos_Click);
@@ -133,9 +138,10 @@
             this.btnLoterias.ForeColor = System.Drawing.Color.White;
             this.btnLoterias.Image = global::Best_Lottery.Properties.Resources.producto;
             this.btnLoterias.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.btnLoterias.Location = new System.Drawing.Point(22, 115);
+            this.btnLoterias.Location = new System.Drawing.Point(16, 93);
+            this.btnLoterias.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnLoterias.Name = "btnLoterias";
-            this.btnLoterias.Size = new System.Drawing.Size(210, 54);
+            this.btnLoterias.Size = new System.Drawing.Size(158, 44);
             this.btnLoterias.TabIndex = 4;
             this.btnLoterias.Text = "Loterias";
             this.btnLoterias.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -152,9 +158,10 @@
             this.btnVentas.ForeColor = System.Drawing.Color.White;
             this.btnVentas.Image = global::Best_Lottery.Properties.Resources.compras_48px;
             this.btnVentas.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.btnVentas.Location = new System.Drawing.Point(23, 57);
+            this.btnVentas.Location = new System.Drawing.Point(17, 46);
+            this.btnVentas.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnVentas.Name = "btnVentas";
-            this.btnVentas.Size = new System.Drawing.Size(210, 54);
+            this.btnVentas.Size = new System.Drawing.Size(158, 44);
             this.btnVentas.TabIndex = 3;
             this.btnVentas.Text = "Ventas";
             this.btnVentas.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -165,9 +172,10 @@
             // 
             this.panel2.BackColor = System.Drawing.SystemColors.HotTrack;
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(237, 0);
+            this.panel2.Location = new System.Drawing.Point(178, 0);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1001, 12);
+            this.panel2.Size = new System.Drawing.Size(750, 10);
             this.panel2.TabIndex = 1;
             // 
             // lblUsuario
@@ -175,9 +183,10 @@
             this.lblUsuario.AutoSize = true;
             this.lblUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblUsuario.ForeColor = System.Drawing.Color.White;
-            this.lblUsuario.Location = new System.Drawing.Point(83, 7);
+            this.lblUsuario.Location = new System.Drawing.Point(62, 6);
+            this.lblUsuario.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblUsuario.Name = "lblUsuario";
-            this.lblUsuario.Size = new System.Drawing.Size(74, 20);
+            this.lblUsuario.Size = new System.Drawing.Size(73, 17);
             this.lblUsuario.TabIndex = 0;
             this.lblUsuario.Text = ".............";
             // 
@@ -185,17 +194,19 @@
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.panel3.Controls.Add(this.pictureBox1);
-            this.panel3.Location = new System.Drawing.Point(271, 1);
+            this.panel3.Location = new System.Drawing.Point(203, 1);
+            this.panel3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(147, 168);
+            this.panel3.Size = new System.Drawing.Size(110, 136);
             this.panel3.TabIndex = 2;
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Best_Lottery.Properties.Resources.Logo;
-            this.pictureBox1.Location = new System.Drawing.Point(13, 66);
+            this.pictureBox1.Location = new System.Drawing.Point(10, 54);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(122, 87);
+            this.pictureBox1.Size = new System.Drawing.Size(92, 71);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -203,9 +214,10 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::Best_Lottery.Properties.Resources.cerrar;
-            this.pictureBox2.Location = new System.Drawing.Point(227, 5);
+            this.pictureBox2.Location = new System.Drawing.Point(170, 4);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(24, 25);
+            this.pictureBox2.Size = new System.Drawing.Size(18, 20);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
@@ -215,9 +227,10 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Bookman Old Style", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(424, 48);
+            this.label1.Location = new System.Drawing.Point(318, 39);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(525, 21);
+            this.label1.Size = new System.Drawing.Size(417, 19);
             this.label1.TabIndex = 3;
             this.label1.Text = "Espacio reservado para anuncio o eslogan de la banca.";
             // 
@@ -227,9 +240,10 @@
             this.panel4.Controls.Add(this.label2);
             this.panel4.Controls.Add(this.pictureBox2);
             this.panel4.Controls.Add(this.lblUsuario);
-            this.panel4.Location = new System.Drawing.Point(980, 0);
+            this.panel4.Location = new System.Drawing.Point(735, 0);
+            this.panel4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(258, 36);
+            this.panel4.Size = new System.Drawing.Size(194, 29);
             this.panel4.TabIndex = 4;
             // 
             // label2
@@ -237,23 +251,25 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(3, 8);
+            this.label2.Location = new System.Drawing.Point(2, 6);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(80, 20);
+            this.label2.Size = new System.Drawing.Size(69, 17);
             this.label2.TabIndex = 2;
             this.label2.Text = "Usuario:";
             // 
             // frmMain
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1238, 589);
+            this.ClientSize = new System.Drawing.Size(928, 479);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "frmMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.panel1.ResumeLayout(false);

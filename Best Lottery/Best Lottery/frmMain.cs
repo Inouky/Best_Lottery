@@ -39,6 +39,9 @@ namespace Best_Lottery
             Sidepanel.Height = btnSorteos.Height;
             Sidepanel.Top = btnSorteos.Top;
             Sidepanel.Visible = true;
+            FrmReportes frm = new FrmReportes();
+            frm.Show();
+            btnVentas.Enabled = false;
         }
 
         private void btnUsuarios_Click(object sender, EventArgs e)
