@@ -65,3 +65,5 @@ C:\Users\Francis\Source\Repos\Inouky\Best_Lottery\Best Lottery\Best Lottery\obj\
 C:\Users\Francis\Source\Repos\Inouky\Best_Lottery\Best Lottery\Best Lottery\obj\Debug\Best Lottery.pdb
 C:\Users\Francis\Source\Repos\Inouky\Best_Lottery\Best Lottery\Best Lottery\obj\Debug\Best_Lottery.frmLoterias.resources
 C:\Users\Francis\Source\Repos\Inouky\Best_Lottery\Best Lottery\Best Lottery\obj\Debug\Best_Lottery.frmUsuarios.resources
+C:\Users\d19b0211\source\repos\Best_Lottery\Best Lottery\Best Lottery\obj\Debug\Best_Lottery.frmUsuarios.resources
+C:\Users\d19b0211\source\repos\Best_Lottery\Best Lottery\Best Lottery\obj\Debug\Best_Lottery.frmLoterias.resources

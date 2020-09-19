@@ -57,6 +57,7 @@ namespace Best_Lottery
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
+            this.Visible = false;
             frmLogin frm = new frmLogin();
             frm.Show();
         }
