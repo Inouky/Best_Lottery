@@ -32,6 +32,8 @@ namespace Best_Lottery
             Sidepanel.Height = btnLoterias.Height;
             Sidepanel.Top = btnLoterias.Top;
             Sidepanel.Visible = true;
+            frmLoterias frm = new frmLoterias();
+            frm.Show();
         }
 
         private void btnSorteos_Click(object sender, EventArgs e)
@@ -41,19 +43,22 @@ namespace Best_Lottery
             Sidepanel.Visible = true;
             FrmReportes frm = new FrmReportes();
             frm.Show();
-
+   
         }
 
         private void btnUsuarios_Click(object sender, EventArgs e)
         {
             Sidepanel.Height = btnUsuarios.Height;
             Sidepanel.Top = btnUsuarios.Top;
+            frmUsuarios frm = new frmUsuarios();
+            frm.Show();
             Sidepanel.Visible = true;
         }
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-
+            frmLogin frm = new frmLogin();
+            frm.Show();
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)

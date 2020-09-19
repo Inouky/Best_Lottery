@@ -49,3 +49,19 @@ C:\Users\d19b0211\source\repos\Best_Lottery\Best Lottery\Best Lottery\obj\Debug\
 C:\Users\d19b0211\source\repos\Best_Lottery\Best Lottery\Best Lottery\obj\Debug\Best Lottery.csproj.CopyComplete
 C:\Users\d19b0211\source\repos\Best_Lottery\Best Lottery\Best Lottery\obj\Debug\Best Lottery.exe
 C:\Users\d19b0211\source\repos\Best_Lottery\Best Lottery\Best Lottery\obj\Debug\Best Lottery.pdb
+C:\Users\Francis\Source\Repos\Inouky\Best_Lottery\Best Lottery\Best Lottery\bin\Debug\Best Lottery.exe.config
+C:\Users\Francis\Source\Repos\Inouky\Best_Lottery\Best Lottery\Best Lottery\bin\Debug\Best Lottery.exe
+C:\Users\Francis\Source\Repos\Inouky\Best_Lottery\Best Lottery\Best Lottery\bin\Debug\Best Lottery.pdb
+C:\Users\Francis\Source\Repos\Inouky\Best_Lottery\Best Lottery\Best Lottery\obj\Debug\Best Lottery.csprojAssemblyReference.cache
+C:\Users\Francis\Source\Repos\Inouky\Best_Lottery\Best Lottery\Best Lottery\obj\Debug\Best_Lottery.frmLogin.resources
+C:\Users\Francis\Source\Repos\Inouky\Best_Lottery\Best Lottery\Best Lottery\obj\Debug\Best_Lottery.frmMain.resources
+C:\Users\Francis\Source\Repos\Inouky\Best_Lottery\Best Lottery\Best Lottery\obj\Debug\Best_Lottery.FrmReportes.resources
+C:\Users\Francis\Source\Repos\Inouky\Best_Lottery\Best Lottery\Best Lottery\obj\Debug\Best_Lottery.frmVentas.resources
+C:\Users\Francis\Source\Repos\Inouky\Best_Lottery\Best Lottery\Best Lottery\obj\Debug\Best_Lottery.Properties.Resources.resources
+C:\Users\Francis\Source\Repos\Inouky\Best_Lottery\Best Lottery\Best Lottery\obj\Debug\Best Lottery.csproj.GenerateResource.cache
+C:\Users\Francis\Source\Repos\Inouky\Best_Lottery\Best Lottery\Best Lottery\obj\Debug\Best Lottery.csproj.CoreCompileInputs.cache
+C:\Users\Francis\Source\Repos\Inouky\Best_Lottery\Best Lottery\Best Lottery\obj\Debug\Best Lottery.csproj.CopyComplete
+C:\Users\Francis\Source\Repos\Inouky\Best_Lottery\Best Lottery\Best Lottery\obj\Debug\Best Lottery.exe
+C:\Users\Francis\Source\Repos\Inouky\Best_Lottery\Best Lottery\Best Lottery\obj\Debug\Best Lottery.pdb
+C:\Users\Francis\Source\Repos\Inouky\Best_Lottery\Best Lottery\Best Lottery\obj\Debug\Best_Lottery.frmLoterias.resources
+C:\Users\Francis\Source\Repos\Inouky\Best_Lottery\Best Lottery\Best Lottery\obj\Debug\Best_Lottery.frmUsuarios.resources
